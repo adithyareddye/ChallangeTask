@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        PLAYWRIGHT_BROWSERS_PATH = 'C:\\Users\\dasar\\AppData\\Local\\ms-playwright' // Custom path
+        PLAYWRIGHT_BROWSERS_PATH = 'C:\\Users\\dasar\\AppData\\Local\\ms-playwright\\chromium-1161\\chrome-win' // Custom path
     }
     stages {
         stage('Install Dependencies') {
