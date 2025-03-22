@@ -88,6 +88,7 @@ This guide helps you set up Playwright for automated testing with Jenkins integr
     ```bash
     npx playwright test --ui
     ```
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/9b7b9969-4af4-41be-9463-cc126ed42aa6" />
 
 ### 4. Create and Push the Repository to GitHub
 - Open Git and create a new repository (public or private).
@@ -133,6 +134,7 @@ This guide helps you set up Playwright for automated testing with Jenkins integr
      ```bash
      npx playwright test tests/e2e.test.ts --project=chromium --headed
      ```
+<img width="668" alt="image" src="https://github.com/user-attachments/assets/111ff77a-fe85-451b-9789-17fb85d93aed" />
 
 #### 6.5. Save and Run the Build
 - Click **Save** to save your Jenkins job.
